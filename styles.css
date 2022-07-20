@@ -9,18 +9,19 @@ body {
     margin: 0px auto;
 }
 .header, .footer{
-    padding: 10px 0px 10px;
-    margin-bottom: 20px;
 }
 .header_flex, .footer_flex, .subscribe, .plan_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgba(29, 163, 22, 0.3);
+    /* padding: 5px 5px 5px 5px; */
 }
 .about{
-    margin: 5px auto 5px;
     display: flex;
-    align-items:flex-start;
+    /* align-items:flex-start; */
+    align-items:stretch;
+    /* border: 1px solid rgb(80, 80, 255); */
 }
 .about_title{
     font-weight: bold;
@@ -32,12 +33,13 @@ body {
     text-align: center;
 }
 .about_wtitle{
-    /* font-weight: bold; */
-    font-size: 36px;
-    letter-spacing: -0.2px;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
     color: #4c4c52;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
+    padding-top: 10px;
 }
 .about_text{
     font-size: 20px;
@@ -66,19 +68,34 @@ body {
     text-align: justify;
     /* border: 1px solid rgb(72, 255, 0); */
 }
+.about_skill_text{
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #4c4c52;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 10px;
+}
 .about_text1{
     font-size: 26px;
     line-height: 30px;
     letter-spacing: -0.625263px;
     color: #4c4c52;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-align: center; */
 }
 .about_skill{
-    width: 35%;
+    width: 42%;
+    background: rgba(29, 163, 22, 0.3);
+    /* border: 1px solid rgb(80, 80, 255); */
+    padding: 20px 5px 20px 5px;
 }
 .about_work{
-    width: 65%;
-    padding-left: 30px;
+    width: 58%;
+    padding: 20px 5px 20px 15px;
+    background: rgba(29, 163, 22, 0.1);
+    /* border: 2px solid red; */
 }
 .circle {
     width: 150px;
