@@ -100,11 +100,11 @@ body {
     width: 42%;
     background: rgba(29, 163, 22, 0.3);
     /* border: 1px solid rgb(80, 80, 255); */
-    padding: 20px 5px 20px 5px;
+    padding: 20px 8px 20px 8px;
 }
 .about_work{
     width: 58%;
-    padding: 20px 5px 20px 15px;
+    padding: 20px 8px 20px 15px;
     background: rgba(29, 163, 22, 0.1);
     /* border: 2px solid red; */
 }
